@@ -73,7 +73,10 @@ Instead, mean distance to the centroid as a function of K is plotted and the "el
 can be used to roughly determine K.</p>
 
 <p align="justify">In our case, the elbow is found around 5. The MSE found below this number shows little changes rather than big ones.</p>
+
+<p align="center">
   <img src="https://github.com/chockroach/Coursera_Capstone/blob/master/images/bar_chart1.png" width="350" title="hover text">
+</p>
 
 ## 4. Results
 
@@ -86,7 +89,9 @@ can be used to roughly determine K.</p>
 * cluster 5 represents neighborhoods mainly consist of Cafe, Park, Coffee Shop, Bar, Restaurant.
 
 <p align="justify">The result of clustering are visualized in the map below with different colors for each cluster.</p>
+<p align="center">
   <img src="https://github.com/chockroach/Coursera_Capstone/blob/master/images/toronto_map.png" width="350" title="hover text">
+</p>
 
 ## 5. Discussion
 
