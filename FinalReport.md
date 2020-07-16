@@ -72,18 +72,18 @@ can be used to roughly determine K.</p>
 <p align="justify">In our case, the elbow is found around 5. The MSE found below this number shows little changes rather than big ones.</p>
 
 <p align="center">
-  <img src="https://github.com/chockroach/Coursera_Capstone/blob/master/images/bar_chart2.png" width="600" title="hover text">
+  <img src="https://github.com/chockroach/Coursera_Capstone/blob/master/images/search-k.png" width="600" title="hover text">
 </p>
 
 ## 4. Results
 
 <p align="justify">As a Result, Neighborhoods in Seoul is Categorized into 5 clusters based on the frequency of occurrence for venues.</p>
 
-* cluster 1 represents neighborhoods mainly consist of Coffee Shop, Korean Restaurant, Bakery, Bunsik Restaurant, Fast Food Restaurant.
-* cluster 2 represents neighborhoods mainly consist of Coffee Shop, Donut Shop, Bus Stop, Udon Restaurant, Korean Restaurant.
-* cluster 3 represents neighborhoods mainly consist of Bakery, Bed & Breakfast, Buffet, Museum, Fast Food Restaurant.
-* cluster 4 represents neighborhoods mainly consist of Korean Restaurant, Vietnamese Restaurant, Auto Workshop.
-* cluster 5 represents neighborhoods mainly consist of Hotel, Bus Station, Mountain(Park),Supermarket, Noodle House .
+* cluster 1 represents neighborhoods mainly consist of Korean Restaurant, Cafe, Ice Cream Shop, Coffee Shop, Bakery.
+* cluster 2 represents neighborhoods mainly consist of Coffee Shop, Hotel, Fast Food Restaurant, Noodle House, Bakery.
+* cluster 3 represents neighborhoods mainly consist of Bakery, Brewery, Donut Shop, Korean Restaurant, Bus Stop.
+* cluster 4 represents neighborhoods mainly consist of Department Store, Bakery, Buffet, Burger Joint, Pizza Place.
+* cluster 5 represents neighborhoods mainly consist of Korean Restaurant, Cafe, Coffe Shop, Bakery, Bus Stop.
 
 <p align="justify">The result of clustering are visualized in the map below with different colors for each cluster.</p>
 <p align="center">
@@ -106,5 +106,9 @@ In another research we could make use of paid account to obtain unlimited data a
 
 <p align="justify">Finally, anyone who wants to move to Seoul can refer to the final result to make a good decision on what place would be the best to live.</p>
 
-<p align="justify">Let's think, if there is one who is looking for convenient place to live we can recommend Cluster 2 without hesitation
-since the neighborhoods in Cluster 2 have got essential facilities for convenient life including Bus Stop as well as not scattered.</p>
+<p align="justify">Let's think, if there is one who is looking for convenient place to live we can recommend Cluster 3 without hesitation
+since the neighborhoods in Cluster 3 have got essential facilities for convenient life including Bus Stop as well as not scattered.</p>
+
+<p align="center">
+  <img src="https://github.com/chockroach/Coursera_Capstone/blob/master/images/bar_chart2.png" width="600" title="hover text">
+</p>
