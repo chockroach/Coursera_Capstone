@@ -18,25 +18,22 @@ We will use dataset of location data provided by 'Foursquare' website which is l
 
 ### 1.1. Business Problem
 
-<p align="justify">Regarding the purpose of this project we need to analyse and select best locations in the city of toronto, Canada.
+<p align="justify">Regarding the purpose of this project we need to analyse and select best locations in the city of Seoul, Korea.
 For this aim, where can we get the data, which Machine Learning algorithms play a best roll 
 and how can we make it easy to allow people to choice best place to move?</p>
 
 ## 2. Data
 
 <p align="justify">
-For this project two datasets (a list of neighborhoods in Toronto, longitude and latitude coordinates) supposed to be merged is obtained.
+For this project two datasets (a list of neighborhoods in Seoul, longitude and latitude coordinates) supposed to be merged is obtained.
 After that, additional venues data that are within a radius of 500m is requested using the API provided by the Foursquare. </p>
 
-* https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M
-* http://cocl.us/Geospatial_data
+* https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M (a list of neighborhoods in Seoul)
+* Geocoder Python package                                         (longitude and latitude coordinates)
 
 <p align="justify">The similarities that will be determined based on the frequency of the categories found in the neighborhoods
 play an important roll in helping people to make right decision whether to move in a particular neighborhood 
-near the center of Toronto or not.</p>
-
-<p align="justify">For the purpose of data cleansing cells with a borough that is Not assigned is ignored
-and filter the data with only boroughs that contain the word Toronto. </p>
+near the center of Seoul or not.</p>
 
 ## 3. Methodology
 
@@ -75,22 +72,22 @@ can be used to roughly determine K.</p>
 <p align="justify">In our case, the elbow is found around 5. The MSE found below this number shows little changes rather than big ones.</p>
 
 <p align="center">
-  <img src="https://github.com/chockroach/Coursera_Capstone/blob/master/images/bar_chart1.png" width="600" title="hover text">
+  <img src="https://github.com/chockroach/Coursera_Capstone/blob/master/images/bar_chart2.png" width="600" title="hover text">
 </p>
 
 ## 4. Results
 
-<p align="justify">As a Result, Neighborhoods in Toronto is Categorized into 5 clusters based on the frequency of occurrence for venues.</p>
+<p align="justify">As a Result, Neighborhoods in Seoul is Categorized into 5 clusters based on the frequency of occurrence for venues.</p>
 
-* cluster 1 represents neighborhoods mainly consist of Park, Trail, Restaurant, Playground, Swimschool.
-* cluster 2 represents neighborhoods mainly consist of Garden, Home Service.
-* cluster 3 represents neighborhoods mainly consist of Pub, Trail, Sushi Restaurant, Jewerly Store, Mexican Restaurant.
-* cluster 4 represents neighborhoods mainly consist of Coffee Shop, Cafe, Italian Restaurant, Hotel, Park.
-* cluster 5 represents neighborhoods mainly consist of Cafe, Park, Coffee Shop, Bar, Restaurant.
+* cluster 1 represents neighborhoods mainly consist of Coffee Shop, Korean Restaurant, Bakery, Bunsik Restaurant, Fast Food Restaurant.
+* cluster 2 represents neighborhoods mainly consist of Coffee Shop, Donut Shop, Bus Stop, Udon Restaurant, Korean Restaurant.
+* cluster 3 represents neighborhoods mainly consist of Bakery, Bed & Breakfast, Buffet, Museum, Fast Food Restaurant.
+* cluster 4 represents neighborhoods mainly consist of Korean Restaurant, Vietnamese Restaurant, Auto Workshop.
+* cluster 5 represents neighborhoods mainly consist of Hotel, Bus Station, Mountain(Park),Supermarket, Noodle House .
 
 <p align="justify">The result of clustering are visualized in the map below with different colors for each cluster.</p>
 <p align="center">
-  <img src="https://github.com/chockroach/Coursera_Capstone/blob/master/images/toronto_map.png" width="600" title="hover text">
+  <img src="https://github.com/chockroach/Coursera_Capstone/blob/master/images/seoul_map.png" width="600" title="hover text">
 </p>
 
 ## 5. Discussion
@@ -107,7 +104,7 @@ In another research we could make use of paid account to obtain unlimited data a
 <p align="justify">In this project, we have undergone a chain of processes including knowing the business problem, gathering and preparing the data 
 ,clustering data by performing machine learning algorithm called k-means.</p>
 
-<p align="justify">Finally, anyone who wants to move to toronto can refer to the final result to make a good decision on what place would be the best to live.</p>
+<p align="justify">Finally, anyone who wants to move to Seoul can refer to the final result to make a good decision on what place would be the best to live.</p>
 
-<p align="justify">Let's think, if there is one who is looking for quiet, restful place to live we can recommend Cluster 2 without hesitation
-since the neighborhoods in Cluster 2 only have Garden, Home Service category.</p>
+<p align="justify">Let's think, if there is one who is looking for convenient place to live we can recommend Cluster 2 without hesitation
+since the neighborhoods in Cluster 2 have got essential facilities for convenient life including Bus Stop as well as not scattered.</p>
