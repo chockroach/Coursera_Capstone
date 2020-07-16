@@ -87,7 +87,7 @@ can be used to roughly determine K.</p>
 
 <p align="justify">The result of clustering are visualized in the map below with different colors for each cluster.</p>
 <p align="center">
-  <img src="https://github.com/chockroach/Coursera_Capstone/blob/master/images/seoul_map.png" width="600" title="hover text">
+  <img src="https://github.com/chockroach/Coursera_Capstone/blob/master/images/seoul_map1.png" width="600" title="hover text">
 </p>
 
 ## 5. Discussion
@@ -110,5 +110,5 @@ In another research we could make use of paid account to obtain unlimited data a
 since the neighborhoods in Cluster 3 have got essential facilities for convenient life including Bus Stop as well as not scattered.</p>
 
 <p align="center">
-  <img src="https://github.com/chockroach/Coursera_Capstone/blob/master/images/bar_chart2.png" width="600" title="hover text">
+  <img src="https://github.com/chockroach/Coursera_Capstone/blob/master/images/bar_chart3.png" width="600" title="hover text">
 </p>
